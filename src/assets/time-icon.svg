@@ -1,0 +1,77 @@
+<svg id="clock" xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  <g id="Gruppe_2" data-name="Gruppe 2">
+    <g id="Gruppe_1" data-name="Gruppe 1">
+      <path id="Pfad_1" data-name="Pfad 1" d="M240,0C107.452,0,0,107.452,0,240S107.452,480,240,480,480,372.548,480,240C479.85,107.514,372.486.15,240,0Zm0,464C116.288,464,16,363.712,16,240S116.288,16,240,16,464,116.288,464,240C463.859,363.653,363.653,463.859,240,464Z" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_4" data-name="Gruppe 4">
+    <g id="Gruppe_3" data-name="Gruppe 3">
+      <path id="Pfad_2" data-name="Pfad 2" d="M240,40C129.543,40,40,129.543,40,240s89.543,200,200,200,200-89.543,200-200C439.877,129.594,350.406,40.123,240,40Zm0,384A184,184,0,1,1,424,240,184,184,0,0,1,240,424Z" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_6" data-name="Gruppe 6">
+    <g id="Gruppe_5" data-name="Gruppe 5">
+      <rect id="Rechteck_3" data-name="Rechteck 3" width="16" height="16" transform="translate(232 80)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_8" data-name="Gruppe 8">
+    <g id="Gruppe_7" data-name="Gruppe 7">
+      <rect id="Rechteck_4" data-name="Rechteck 4" width="16" height="16" transform="translate(232 384)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_10" data-name="Gruppe 10">
+    <g id="Gruppe_9" data-name="Gruppe 9">
+      <rect id="Rechteck_5" data-name="Rechteck 5" width="15.992" height="15.992" transform="translate(153.061 105.442) rotate(-30.009)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_12" data-name="Gruppe 12">
+    <g id="Gruppe_11" data-name="Gruppe 11">
+      <rect id="Rechteck_6" data-name="Rechteck 6" width="15.992" height="15.992" transform="translate(305.025 368.664) rotate(-30.009)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_14" data-name="Gruppe 14">
+    <g id="Gruppe_13" data-name="Gruppe 13">
+      <rect id="Rechteck_7" data-name="Rechteck 7" width="16" height="16" transform="matrix(0.5, -0.866, 0.866, 0.5, 97.429, 166.928)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_16" data-name="Gruppe 16">
+    <g id="Gruppe_15" data-name="Gruppe 15">
+      <rect id="Rechteck_8" data-name="Rechteck 8" width="16" height="16" transform="matrix(0.5, -0.866, 0.866, 0.5, 360.673, 318.955)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_18" data-name="Gruppe 18">
+    <g id="Gruppe_17" data-name="Gruppe 17">
+      <rect id="Rechteck_9" data-name="Rechteck 9" width="16" height="16" transform="translate(80 232)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_20" data-name="Gruppe 20">
+    <g id="Gruppe_19" data-name="Gruppe 19">
+      <rect id="Rechteck_10" data-name="Rechteck 10" width="16" height="16" transform="translate(384 232)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_22" data-name="Gruppe 22">
+    <g id="Gruppe_21" data-name="Gruppe 21">
+      <rect id="Rechteck_11" data-name="Rechteck 11" width="16" height="16" transform="translate(97.433 313.083) rotate(-29.993)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_24" data-name="Gruppe 24">
+    <g id="Gruppe_23" data-name="Gruppe 23">
+      <rect id="Rechteck_12" data-name="Rechteck 12" width="16" height="16" transform="matrix(0.866, -0.5, 0.5, 0.866, 360.671, 161.072)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_26" data-name="Gruppe 26">
+    <g id="Gruppe_25" data-name="Gruppe 25">
+      <rect id="Rechteck_13" data-name="Rechteck 13" width="15.992" height="15.992" transform="translate(153.02 374.543) rotate(-59.991)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_28" data-name="Gruppe 28">
+    <g id="Gruppe_27" data-name="Gruppe 27">
+      <rect id="Rechteck_14" data-name="Rechteck 14" width="15.992" height="15.992" transform="translate(305.062 111.307) rotate(-59.991)" fill="#ed6665"/>
+    </g>
+  </g>
+  <g id="Gruppe_30" data-name="Gruppe 30">
+    <g id="Gruppe_29" data-name="Gruppe 29">
+      <path id="Pfad_3" data-name="Pfad 3" d="M232,112V235.472l-76.12,45.672,8.24,13.712,80-48A8,8,0,0,0,248,240V112Z" fill="#ed6665"/>
+    </g>
+  </g>
+</svg>
