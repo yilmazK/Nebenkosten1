@@ -72,7 +72,7 @@ class Main extends Component {
             && this.state.hinweis !== "") {
             console.log("SSSUUUCCCEEESSS");
             var Airtable = require('airtable');
-            var base = new Airtable({apiKey: process.env.AIRTABLE_KEY}).base('appK8zHNLzgHCdP1q');
+            var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
 
             base('Table 1').create([
                 {
