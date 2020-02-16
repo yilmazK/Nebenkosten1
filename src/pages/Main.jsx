@@ -274,7 +274,7 @@ class Main extends Component {
                                 <label>Nebenkostenabrechnung hochladen*</label>
                                 <ReactFilestack
                                     required
-                                    apikey={'APtgpTIW1Tlimbrj3wpTuz'}
+                                    apikey={'ASpqCRkoFTraFm44hy3zkz'}
                                     customRender={({onPick}) => (
                                         <div className="upload">
                                             <button className="hochladen-button" onClick={onPick}>Datei auswählen
@@ -293,7 +293,7 @@ class Main extends Component {
 
                                 <ReactFilestack
                                     required
-                                    apikey={'APtgpTIW1Tlimbrj3wpTuz'}
+                                    apikey={'ASpqCRkoFTraFm44hy3zkz'}
                                     customRender={({onPick}) => (
                                         <div className="upload">
                                             <button className="hochladen-button" onClick={onPick}>Datei auswählen
