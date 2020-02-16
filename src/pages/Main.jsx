@@ -47,6 +47,10 @@ class Main extends Component {
         }
     }
 
+    onFormSubmit = e => {
+        e.preventDefault();
+    };
+
     newsletterSubmit() {
         var Airtable = require('airtable');
         var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
@@ -252,7 +256,7 @@ class Main extends Component {
                 <div style={backgroundImage} className="test" id="checkNow">
                     <div className="inner-hero">
                         <div className="box-wrapper">
-                            <form className="check-form">
+                            <form className="check-form" noValidate onSubmit={this.onFormSubmit}>
                                 <h1>Nebenkosten prüfen lassen</h1>
                                 <ul>
                                     <li>8 / 10 Nebenkostenabrechnungen sind fehlerhaft</li>
@@ -312,7 +316,8 @@ class Main extends Component {
                                         <option value="express">Express €49,- (48 Stunden)</option>
                                     </select>
                                 </div>
-                                <button type="submit" className="primary-btn" onClick={this.submit}>Nebenkosten prüfen
+                                {this.state.missing && <p id="errorMessage">Bitte fülle alle Felder korrekt aus :)</p>}
+                                <button type="submit" className={this.state.missing ? "primary-btn1" : "primary-btn"}  onClick={this.submit}>Nebenkosten prüfen
                                 </button>
                             </form>
 
@@ -417,7 +422,7 @@ class Main extends Component {
                             So funktioniert's
                         </h1>
                         <p className="section-sub-header">
-                            Laden Sie Ihre Dokumente schnell und bequem von Daheim hoch und erhalten Sie Prüfergebnisse
+                            Laden Sie Ihre Dokumente schnell und bequem von Zuhause hoch und erhalten Sie Prüfergebnisse
                             binne 48 Stunden.
                         </p>
                         <div className="step-section">
