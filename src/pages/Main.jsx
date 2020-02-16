@@ -262,16 +262,16 @@ class Main extends Component {
                                     <li>Im Schnitt wird €238,- zu viel verlangt</li>
                                     <li>Jetzt Nebenkostenabrechnung prüfen und Geld zurück erhalten</li>
                                 </ul>
-                                <label>Vollständiger Name *</label>
+                                <label>Vollständiger Name*</label>
                                 <input type="text" placeholder="Vollständiger Name" required value={this.state.name}
                                        onChange={(evt) => this.updateName(evt)}/>
-                                <label>E-Mail *</label>
+                                <label>E-Mail*</label>
                                 <input type="email" placeholder="E-Mail" required value={this.state.email}
                                        onChange={(evt) => this.updateEmail(evt)}/>
                                 <label>Anmerkung</label>
                                 <input type="text" placeholder="Fragen & Anmerkungen" value={this.state.hinweis}
                                        onChange={(evt) => this.updateHinweis(evt)}/>
-                                <label>Nebenkostenabrechnung hochladen *</label>
+                                <label>Nebenkostenabrechnung hochladen*</label>
                                 <ReactFilestack
                                     required
                                     apikey={'APtgpTIW1Tlimbrj3wpTuz'}
@@ -289,7 +289,7 @@ class Main extends Component {
                                 />
 
 
-                                <label>Mietvertrag hochladen *</label>
+                                <label>Mietvertrag hochladen*</label>
 
                                 <ReactFilestack
                                     required
