@@ -7,6 +7,7 @@ import Datenschutz from "./pages/Datenschutz";
 import Agb from "./pages/Agb";
 import Impressum from "./pages/Impressum";
 import Erfolg from "./pages/Erfolg";
+require('dotenv').config();
 
 
 

@@ -5,6 +5,7 @@ import Background from "../assets/hero-bg-2.jpg";
 import Footer from "./Footer";
 import {Redirect} from 'react-router-dom'
 import ReactFilestack from "filestack-react";
+require('dotenv').config();
 
 const backgroundImage = {
     width: "100%",
@@ -48,7 +49,7 @@ class Main extends Component {
 
     newsletterSubmit() {
         var Airtable = require('airtable');
-        var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
+        var base = new Airtable({apiKey: process.env.AIRTABLE_KEY}).base('appK8zHNLzgHCdP1q');
 
         base('Newsletter').create([
             {
@@ -72,7 +73,7 @@ class Main extends Component {
             && this.state.hinweis !== "") {
             console.log("SSSUUUCCCEEESSS");
             var Airtable = require('airtable');
-            var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
+            var base = new Airtable({apiKey: process.env.AIRTABLE_KEY}).base('appK8zHNLzgHCdP1q');
 
             base('Table 1').create([
                 {
@@ -270,7 +271,7 @@ class Main extends Component {
                                 <label>Nebenkostenabrechnung hochladen</label>
                                 <ReactFilestack
                                     required
-                                    apikey={'APtgpTIW1Tlimbrj3wpTuz'}
+                                    apikey={process.env.FILESTACK_KEY}
                                     customRender={({onPick}) => (
                                         <div className="upload">
                                             <button className="hochladen-button" onClick={onPick}>Datei auswählen
@@ -289,7 +290,7 @@ class Main extends Component {
 
                                 <ReactFilestack
                                     required
-                                    apikey={'APtgpTIW1Tlimbrj3wpTuz'}
+                                    apikey={process.env.FILESTACK_KEY}
                                     customRender={({onPick}) => (
                                         <div className="upload">
                                             <button className="hochladen-button" onClick={onPick}>Datei auswählen
