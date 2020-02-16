@@ -78,7 +78,7 @@ class Main extends Component {
             var Airtable = require('airtable');
             var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
 
-            base('Table 1').create([
+            base('Orderlist').create([
                 {
                     "fields": {
                         "Name": this.state.name,
