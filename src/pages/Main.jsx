@@ -73,8 +73,7 @@ class Main extends Component {
     }
 
     submit() {
-        if (this.state.urlnebenkosten !== "" && this.state.urlmietvertrag !== "" && this.state.name !== "" && this.state.email !== ""
-            && this.state.hinweis !== "") {
+        if (this.state.urlnebenkosten !== "" && this.state.urlmietvertrag !== "" && this.state.name !== "" && this.state.email !== "") {
             console.log("SSSUUUCCCEEESSS");
             var Airtable = require('airtable');
             var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
