@@ -49,7 +49,7 @@ class Main extends Component {
 
     newsletterSubmit() {
         var Airtable = require('airtable');
-        var base = new Airtable({apiKey: process.env.AIRTABLE_KEY}).base('appK8zHNLzgHCdP1q');
+        var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
 
         base('Newsletter').create([
             {
@@ -73,7 +73,7 @@ class Main extends Component {
             && this.state.hinweis !== "") {
             console.log("SSSUUUCCCEEESSS");
             var Airtable = require('airtable');
-            var base = new Airtable({apiKey: process.env.AIRTABLE_KEY}).base('appK8zHNLzgHCdP1q');
+            var base = new Airtable({apiKey: 'keyfzfkfqvneh0nUd'}).base('appK8zHNLzgHCdP1q');
 
             base('Table 1').create([
                 {
@@ -271,7 +271,7 @@ class Main extends Component {
                                 <label>Nebenkostenabrechnung hochladen</label>
                                 <ReactFilestack
                                     required
-                                    apikey={process.env.FILESTACK_KEY}
+                                    apikey={'APtgpTIW1Tlimbrj3wpTuz'}
                                     customRender={({onPick}) => (
                                         <div className="upload">
                                             <button className="hochladen-button" onClick={onPick}>Datei auswählen
@@ -290,7 +290,7 @@ class Main extends Component {
 
                                 <ReactFilestack
                                     required
-                                    apikey={process.env.FILESTACK_KEY}
+                                    apikey={'APtgpTIW1Tlimbrj3wpTuz'}
                                     customRender={({onPick}) => (
                                         <div className="upload">
                                             <button className="hochladen-button" onClick={onPick}>Datei auswählen
