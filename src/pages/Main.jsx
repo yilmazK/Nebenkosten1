@@ -366,7 +366,7 @@ class Main extends Component {
                                 <div className="underline-style-4"></div>
                                 <h1>Fehler in der Abrechnung</h1>
                                 <p>
-                                    Deutsche Mieter zahlen jedes Jahr über 6 Milliarden Euro mehr für die Nebenkosten
+                                    Mieter in Deutschland zahlen jedes Jahr über 6 Milliarden Euro mehr für die Nebenkosten
                                     als es eigentlich erforderlich ist.
                                 </p>
                             </div>
