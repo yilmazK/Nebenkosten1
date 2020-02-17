@@ -482,7 +482,7 @@ class Main extends Component {
                 </div>
                 <div className="container" id="newsletter-background">
                     <div className="newsletter-section">
-                        <h1 className="section-header" id="newsletter-header">Unterlagen nicht zur Hand? Wir erinnern dich!</h1>
+                        <h1 className="section-header" id="newsletter-header">Unterlagen nicht zur Hand? Wir melden uns!</h1>
                         <form className={this.hideInput()} id="newsletter-signup-company"
                               onSubmit={this.onSubmit}>
                             <input className="newsletter-email" id="newsletter-email-company" placeholder="Deine E-Mail"
@@ -490,7 +490,7 @@ class Main extends Component {
                                    onChange={this.onChange} autoComplete="off"
                                    required/>
                             <button className="newsletter-button" type="submit"
-                                    onClick={this.newsletterSubmit}>Anmelden
+                                    onClick={this.newsletterSubmit}>Senden
                             </button>
                         </form>
                         <p className={this.showSuccess()}>Danke fürs Anmelden!</p>
